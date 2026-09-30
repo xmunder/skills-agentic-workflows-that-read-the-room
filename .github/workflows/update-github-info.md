@@ -1,7 +1,6 @@
 ---
 name: update-github-info
-engine: copilot
-model: gpt-5-mini
+
 on:
   schedule: daily
   workflow_dispatch:
