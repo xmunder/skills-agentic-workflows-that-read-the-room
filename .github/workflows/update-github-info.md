@@ -1,5 +1,7 @@
 ---
 name: update-github-info
+engine: copilot
+model: gpt-5-mini
 on:
   schedule: daily
   workflow_dispatch:
@@ -23,6 +25,7 @@ safe-outputs:
     title-prefix: "[github-info] "
     reviewers: [mona]
     draft: true
+    fallback-as-issue: false
     allowed-files:
       - site/content/github-info.md
 ---
