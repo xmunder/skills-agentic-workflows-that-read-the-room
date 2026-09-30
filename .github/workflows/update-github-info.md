@@ -10,8 +10,8 @@ permissions:
   pull-requests: read
 
 tools:
-  edit:
-  web-fetch:
+  edit: {}
+  web-fetch: {}
 
 network:
   allowed:
